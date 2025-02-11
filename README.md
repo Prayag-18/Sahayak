@@ -42,7 +42,7 @@ Ensure you have the following installed:
 To clone the repository and navigate to the project directory, run the following commands:
 
 ```bash
-git clone https://github.com/yourusername/Sahayak.git
+git clone https://github.com/Prayag-18/Sahayak.git
 cd Sahayak
 ```
 
@@ -53,3 +53,40 @@ python -m venv venv
 source venv/bin/activate  # macOS/Linux
 venv\Scripts\activate     # Windows
 ```
+<h2>4️⃣ Install Dependencies</h2>
+
+```bash
+pip install -r requirements.txt
+```
+
+<h2>5️⃣ Set Up Environment Variables</h2>
+
+Rename .env.example to .env and add your secret keys:
+```ini
+SECRET_KEY=your_flask_secret_key
+COHERE_API_KEY=your_cohere_api_key
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=your_db_password
+DB_NAME=UserDB
+```
+
+<h2>6️⃣ Initialize the Database</h2>
+
+```bash
+python db.py
+```
+
+<h2>7️⃣ Run the Flask App</h2>
+
+```bash
+python app.py
+```
+
+# 🛠️ Tech Stack
+
+- **Backend**: Flask (Python)
+- **Database**: MySQL
+- **AI/ML**: Cohere API, Google Speech-to-Text, Google Translate
+- **Web Scraping**: BeautifulSoup, Google Search API
+- **Audio Processing**: FFmpeg, gTTS (Google Text-to-Speech)
