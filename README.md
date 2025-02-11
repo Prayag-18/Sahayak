@@ -32,6 +32,7 @@ Sahayak is a Flask-based AI assistant that integrates real-time chatbot capabili
 # 🛠️ Setup and Installation
 <h2>1️⃣ Prerequisites</h2>
 Ensure you have the following installed:
+
 - Python 3.8+
 - MySQL Server
 - Virtual Environment (venv)
