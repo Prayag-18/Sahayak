@@ -1,11 +1,8 @@
-# Sahayak
-AI Assistant which contains a Chatbot, Events tab, Summary tab, News tab and Search Web option
-
 # 📌 Sahayak - Your AI Assistant
-
 Sahayak is a Flask-based AI assistant that integrates real-time chatbot capabilities, personalized news, speech recognition, PDF summarization, and multilingual translation.
 
 # 🚀 Features
+```
 🔹 Chatbot: AI-powered chatbot using Cohere API.
 🔹 Speech Recognition: Convert speech to text using Google Speech Recognition.
 🔹 News Fetching: Personalized news recommendations.
@@ -14,8 +11,10 @@ Sahayak is a Flask-based AI assistant that integrates real-time chatbot capabili
 🔹 Multilingual Support: Translate text between different languages.
 🔹 Event Scheduling: Manage personal events and reminders.
 🔹 User Authentication: Secure login, registration, and session management.
+```
 
 # 📂 Project Structure
+```
 📁 Sahayak
 │── 📄 app.py              # Main Flask application
 │── 📄 chatbot.py          # Chatbot logic using Cohere API
@@ -28,6 +27,7 @@ Sahayak is a Flask-based AI assistant that integrates real-time chatbot capabili
 │── 📄 requirements.txt    # Python dependencies
 │── 📄 .env.example        # Example environment variables
 │── 📄 README.md           # Project documentation
+```
 
 # 🛠️ Setup and Installation
 <h2>1️⃣ Prerequisites</h2>
