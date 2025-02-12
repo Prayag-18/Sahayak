@@ -1,4 +1,4 @@
-# 📌 Sahayak - Your AI Assistant
+# 📌 Sahayak - AI-Powered Virtual Assistant
 Sahayak is a Flask-based AI assistant that integrates real-time chatbot capabilities, personalized news, speech recognition, PDF summarization, and multilingual translation.
 
 # 🚀 Features
