@@ -1,12 +1,17 @@
 import mysql.connector
 from datetime import datetime
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Database connection details
 DB_CONFIG = {
-    "host": "localhost",      # Change if using a remote server
-    "user": "root",           # Change to your MySQL username
-    "password": "abc123",# Change to your MySQL password
-    "database": "UserDB"
+    "host": os.getenv("DB_HOST", "localhost"),  # Default to localhost if not set
+    "user": os.getenv("DB_USER", "root"),
+    "password": os.getenv("DB_PASSWORD", ""),
+    "database": os.getenv("DB_NAME", "default_db")
 }
 
 def connect_db():
